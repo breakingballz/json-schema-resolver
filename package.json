@@ -1,0 +1,25 @@
+{
+  "name": "json-schema-resolver",
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test:unit": "vitest watch",
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.5.4",
+    "tsup": "^8.2.4",
+    "typescript": "^5.6.2",
+    "vitest": "^2.0.5"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}
